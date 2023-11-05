@@ -1,40 +1,40 @@
-soc-Slashdot0811
+#soc-Slashdot0811
 
-Este texto descreve um conjunto de dados que se refere à rede de amizades e inimizades (friend/foe) entre os usuários do site Slashdot, um conhecido site de notícias relacionadas à tecnologia. Slashdot é conhecido por sua comunidade de usuários ativos e envolvidos.							
+##Este texto descreve um conjunto de dados que se refere à rede de amizades e inimizades (friend/foe) entre os usuários do site Slashdot, um conhecido site de notícias relacionadas à tecnologia. Slashdot é conhecido por sua comunidade de usuários ativos e envolvidos.							
 
-Em 2002, o Slashdot introduziu o recurso chamado "Slashdot Zoo", que permite aos usuários marcar uns aos outros como amigos ou inimigos. Esse conjunto de dados captura as conexões de amizade e inimizade entre os usuários do Slashdot. As conexões podem ser direcionadas, onde um usuário marca outro como amigo ou inimigo.							
+##Em 2002, o Slashdot introduziu o recurso chamado "Slashdot Zoo", que permite aos usuários marcar uns aos outros como amigos ou inimigos. Esse conjunto de dados captura as conexões de amizade e inimizade entre os usuários do Slashdot. As conexões podem ser direcionadas, onde um usuário marca outro como amigo ou inimigo.							
 
-Os dados foram obtidos em novembro de 2008 e podem ser usados para analisar a dinâmica social e as relações entre os usuários da comunidade do Slashdot. Isso pode ser útil para estudar como as pessoas se relacionam online, como as amizades e hostilidades se desenvolvem em comunidades online e outros aspectos relacionados à interação entre os membros da comunidade.							
-
-
-wiki-Vote
-
-Esse texto descreve um conjunto de dados relacionados às eleições de administradores na Wikipedia, a enciclopédia online colaborativa. Na Wikipedia, os administradores são usuários com acesso a recursos técnicos adicionais que auxiliam na manutenção do site. Para que um usuário se torne um administrador, é necessário passar por um processo chamado "Request for adminship" (RfA), no qual a comunidade da Wikipedia decide, por meio de uma discussão pública ou votação, quem será promovido a administrador.							
-
-Os dados foram extraídos do histórico completo de edições de páginas da Wikipedia, com informações a partir de 3 de janeiro de 2008. Esses dados incluem informações sobre eleições de administradores, histórico de votos e detalhes sobre a participação dos usuários nas eleições. No total, foram registradas 2.794 eleições, com um total de 103.663 votos e a participação de 7.066 usuários nas eleições, seja como votantes ou como candidatos a administradores. Dessas eleições, 1.235 resultaram na promoção bem-sucedida de um usuário para a posição de administrador, enquanto 1.559 não resultaram na promoção.							
-
-O conjunto de dados também inclui informações sobre os votos, indicando que cerca da metade dos votos registrados no conjunto de dados foi emitida por administradores existentes, enquanto a outra metade veio de usuários regulares da Wikipedia. A rede de dados representa os votos em forma de um grafo direcionado, onde os nós representam os usuários da Wikipedia e as arestas direcionadas indicam que um usuário votou em outro usuário durante as eleições de administrador. Esses dados podem ser usados para análises e estudos sobre o processo de seleção de administradores na Wikipedia e as interações entre os usuários nesse contexto.							
+##Os dados foram obtidos em novembro de 2008 e podem ser usados para analisar a dinâmica social e as relações entre os usuários da comunidade do Slashdot. Isso pode ser útil para estudar como as pessoas se relacionam online, como as amizades e hostilidades se desenvolvem em comunidades online e outros aspectos relacionados à interação entre os membros da comunidade.							
 
 
-Web-Google
+#wiki-Vote
 
-Esse texto descreve um conjunto de dados em que os nós representam páginas da web e as arestas direcionadas representam hiperlinks que conectam essas páginas. Os dados foram lançados em 2002 como parte do Google Programming Contest.							
+##Esse texto descreve um conjunto de dados relacionados às eleições de administradores na Wikipedia, a enciclopédia online colaborativa. Na Wikipedia, os administradores são usuários com acesso a recursos técnicos adicionais que auxiliam na manutenção do site. Para que um usuário se torne um administrador, é necessário passar por um processo chamado "Request for adminship" (RfA), no qual a comunidade da Wikipedia decide, por meio de uma discussão pública ou votação, quem será promovido a administrador.							
 
-Essencialmente, esses dados formam um grafo de páginas da web interconectadas, onde cada página é representada como um nó e os hiperlinks entre essas páginas são representados como arestas direcionadas que apontam de uma página para outra. Esses dados podem ser usados para análises e estudos relacionados à estrutura da web, à conectividade entre páginas e a algoritmos de busca na web, entre outros tópicos. Eles podem ser valiosos para entender a organização da web e como as páginas estão interligadas.							
+##Os dados foram extraídos do histórico completo de edições de páginas da Wikipedia, com informações a partir de 3 de janeiro de 2008. Esses dados incluem informações sobre eleições de administradores, histórico de votos e detalhes sobre a participação dos usuários nas eleições. No total, foram registradas 2.794 eleições, com um total de 103.663 votos e a participação de 7.066 usuários nas eleições, seja como votantes ou como candidatos a administradores. Dessas eleições, 1.235 resultaram na promoção bem-sucedida de um usuário para a posição de administrador, enquanto 1.559 não resultaram na promoção.							
 
-
-CA-CondMat
-
-O texto descreve uma rede de colaboração científica no campo da Física da Matéria Condensada, chamada de "Arxiv COND-MAT Collaboration Network." Essa rede é construída a partir de artigos científicos publicados no repositório de pré-impressão arXiv, que cobrem as colaborações científicas entre autores de artigos submetidos à categoria de Física da Matéria Condensada (COND-MAT).	
-
-Cada vez que um autor i coescreve um artigo com o autor j, uma aresta não direcionada é criada na rede, conectando i a j. Se o artigo é coescrito por k autores, isso gera um subgrafo completamente conectado com k nós.	
-
-Os dados cobrem artigos publicados no período de janeiro de 1993 a abril de 2003, abrangendo 124 meses. Esse período começa pouco depois do início do arXiv e, portanto, representa essencialmente a história completa da seção COND-MAT desse repositório. Essa rede de colaboração pode ser usada para analisar as relações entre pesquisadores e suas contribuições no campo da Física da Matéria Condensada ao longo desse período.							
+##O conjunto de dados também inclui informações sobre os votos, indicando que cerca da metade dos votos registrados no conjunto de dados foi emitida por administradores existentes, enquanto a outra metade veio de usuários regulares da Wikipedia. A rede de dados representa os votos em forma de um grafo direcionado, onde os nós representam os usuários da Wikipedia e as arestas direcionadas indicam que um usuário votou em outro usuário durante as eleições de administrador. Esses dados podem ser usados para análises e estudos sobre o processo de seleção de administradores na Wikipedia e as interações entre os usuários nesse contexto.							
 
 
-amazon0302
+#Web-Google
 
-Esse texto descreve um conjunto de dados de rede que foi coletado por meio de uma varredura no site da Amazon. Os dados são baseados na funcionalidade da Amazon chamada "Customers Who Bought This Item Also Bought" (Clientes que compraram este item também compraram), que sugere produtos relacionados com base nas compras anteriores dos clientes. Se um produto i for frequentemente co-comprado com o produto j, o grafo de dados conterá uma aresta direcionada de i para j.							
+##Esse texto descreve um conjunto de dados em que os nós representam páginas da web e as arestas direcionadas representam hiperlinks que conectam essas páginas. Os dados foram lançados em 2002 como parte do Google Programming Contest.							
 
-A coleta desses dados ocorreu em março de 2003. Esse conjunto de dados de rede pode ser usado para analisar as relações de co-compra entre produtos na Amazon e entender como os clientes estão associando diferentes produtos em suas compras. Pode ser útil para recomendações de produtos, análises de mercado e compreensão do comportamento de compra dos clientes na plataforma da Amazon.							
+##Essencialmente, esses dados formam um grafo de páginas da web interconectadas, onde cada página é representada como um nó e os hiperlinks entre essas páginas são representados como arestas direcionadas que apontam de uma página para outra. Esses dados podem ser usados para análises e estudos relacionados à estrutura da web, à conectividade entre páginas e a algoritmos de busca na web, entre outros tópicos. Eles podem ser valiosos para entender a organização da web e como as páginas estão interligadas.							
+
+
+#CA-CondMat
+
+##O texto descreve uma rede de colaboração científica no campo da Física da Matéria Condensada, chamada de "Arxiv COND-MAT Collaboration Network." Essa rede é construída a partir de artigos científicos publicados no repositório de pré-impressão arXiv, que cobrem as colaborações científicas entre autores de artigos submetidos à categoria de Física da Matéria Condensada (COND-MAT).	
+
+##Cada vez que um autor i coescreve um artigo com o autor j, uma aresta não direcionada é criada na rede, conectando i a j. Se o artigo é coescrito por k autores, isso gera um subgrafo completamente conectado com k nós.	
+
+##Os dados cobrem artigos publicados no período de janeiro de 1993 a abril de 2003, abrangendo 124 meses. Esse período começa pouco depois do início do arXiv e, portanto, representa essencialmente a história completa da seção COND-MAT desse repositório. Essa rede de colaboração pode ser usada para analisar as relações entre pesquisadores e suas contribuições no campo da Física da Matéria Condensada ao longo desse período.							
+
+
+#amazon0302
+
+##Esse texto descreve um conjunto de dados de rede que foi coletado por meio de uma varredura no site da Amazon. Os dados são baseados na funcionalidade da Amazon chamada "Customers Who Bought This Item Also Bought" (Clientes que compraram este item também compraram), que sugere produtos relacionados com base nas compras anteriores dos clientes. Se um produto i for frequentemente co-comprado com o produto j, o grafo de dados conterá uma aresta direcionada de i para j.							
+
+##A coleta desses dados ocorreu em março de 2003. Esse conjunto de dados de rede pode ser usado para analisar as relações de co-compra entre produtos na Amazon e entender como os clientes estão associando diferentes produtos em suas compras. Pode ser útil para recomendações de produtos, análises de mercado e compreensão do comportamento de compra dos clientes na plataforma da Amazon.							
 
